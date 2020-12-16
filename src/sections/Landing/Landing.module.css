@@ -1,0 +1,19 @@
+.landing {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 2em;
+  }  
+
+.landingH1 {
+  margin: 0.3em;
+  font-size: 2.5em !important;
+}
+
+.landingText {
+  font-size: 1.7em;
+  margin: 0;
+}

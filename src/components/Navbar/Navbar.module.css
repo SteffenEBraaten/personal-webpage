@@ -1,0 +1,12 @@
+.navbar {
+  list-style: none !important;
+  position: sticky;
+  margin: 0;
+  padding: 0 !important;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+  z-index: 1;
+  top: 0;
+}
