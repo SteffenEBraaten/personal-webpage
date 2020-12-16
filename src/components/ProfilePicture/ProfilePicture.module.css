@@ -2,10 +2,10 @@
   border-radius: 50%;
 }
 
-.normalSize {
-  width: 50px;
+.smallSize {
+  transform: scale(0.5);
 }
 
-.largeSize {
-  width: 200px;
+.normalSize {
+    transform: scale(1);
 }

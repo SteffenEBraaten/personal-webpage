@@ -2,20 +2,17 @@ import React from "react";
 import styles from "./ProfilePicture.module.css";
 
 interface ProfilePic {
-  imageURL: string;
+  imageURL: JSX.Element;
   altText?: string;
-  large: boolean;
+  small?: boolean;
 }
 
-const ProfilePicture = ({ imageURL, altText, large = false }: ProfilePic) => {
+const ProfilePicture = ({ imageURL, small = false }: ProfilePic) => {
   return (
-    <img
-      src={imageURL}
-      className={`${styles.roundedImage} ${
-        large ? styles.largeSize : styles.normalSize
-      }`}
-      alt={altText}
-    />
+      <div className={`${styles.roundedImage} ${
+        small ? styles.smallSize : styles.normalSize}`}>
+        {imageURL}  
+      </div>
   );
 };
 
