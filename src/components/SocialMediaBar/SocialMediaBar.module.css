@@ -1,0 +1,29 @@
+.socialMediaBar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  font-size: 4em;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: #4a6fa5;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .socialMediaBar {
+    max-width: 50%;
+  }
+}

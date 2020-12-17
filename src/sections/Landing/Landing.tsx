@@ -1,6 +1,8 @@
 import React from "react";
 import ProfilePicture from "../../components/ProfilePicture/ProfilePicture";
 import ProfileSteffen from "../../components/svgs/ProfileSteffen";
+import { SocialMediaBar } from "../../components/SocialMediaBar/SocialMediaBar";
+
 import styles from "./Landing.module.css";
 
 const Landing = () => {
@@ -11,6 +13,7 @@ const Landing = () => {
       <p className={styles.landingText}>
         I'm a software developer with a passion for great user experiences
       </p>
+      <SocialMediaBar />
     </section>
   );
 };
