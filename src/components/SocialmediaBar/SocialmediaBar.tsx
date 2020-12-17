@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import styles from "./SocialMediaBar.module.css";
 
-const SocialMediaBar = () => {
+export const SocialMediaBar = () => {
   return (
     <ul className={styles.socialMediaBar}>
       <li>

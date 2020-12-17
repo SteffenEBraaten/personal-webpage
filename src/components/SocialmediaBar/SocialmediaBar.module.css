@@ -23,7 +23,7 @@ a:hover {
 }
 
 @media only screen and (min-width: 768px) {
-  .socialmediaBar {
+  .socialMediaBar {
     max-width: 50%;
   }
 }

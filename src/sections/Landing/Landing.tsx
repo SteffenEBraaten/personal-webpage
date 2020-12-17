@@ -1,7 +1,7 @@
 import React from "react";
 import ProfilePicture from "../../components/ProfilePicture/ProfilePicture";
 import ProfileSteffen from "../../components/svgs/ProfileSteffen";
-import SocialMediaBar from "../../components/SocialMediaBar/SocialMediaBar";
+import { SocialMediaBar } from "../../components/SocialMediaBar/SocialMediaBar";
 
 import styles from "./Landing.module.css";
 
