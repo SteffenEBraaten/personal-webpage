@@ -9,10 +9,13 @@ interface ProfilePic {
 
 const ProfilePicture = ({ imageURL, small = false }: ProfilePic) => {
   return (
-      <div className={`${styles.roundedImage} ${
-        small ? styles.smallSize : styles.normalSize}`}>
-        {imageURL}  
-      </div>
+    <i
+      className={`${styles.roundedImage} ${
+        small ? styles.smallSize : styles.normalSize
+      }`}
+    >
+      {imageURL}
+    </i>
   );
 };
 

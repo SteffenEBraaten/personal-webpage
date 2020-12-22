@@ -3,8 +3,8 @@ import React from "react";
 function ProfileSteffen(props: any) {
   return (
     <svg
-      width={200}
-      height={200}
+      width={128}
+      height={128}
       viewBox="0 0 200 200"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
