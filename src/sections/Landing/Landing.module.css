@@ -6,6 +6,9 @@
   justify-content: center;
   text-align: center;
   padding: 0 2em;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../media/opera.jpeg");
+  background-position: center;
+  background-size: cover;
 }
 
 .landingH1 {
