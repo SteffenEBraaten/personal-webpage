@@ -5,9 +5,9 @@ import {
   faCamera,
   faDumbbell,
   faPlaneDeparture,
-  faBookOpen
+  faBookOpen,
 } from "@fortawesome/free-solid-svg-icons";
-import profilePicture from "../../media/steffen.jpeg"
+import profilePicture from "../../media/steffen.jpeg";
 
 import styles from "./AboutMe.module.css";
 interface liWithIcon {
@@ -35,10 +35,15 @@ const AboutMe = () => {
     <section className={styles.aboutMeSection}>
       <article className={styles.profile}>
         <h2 className={styles.h2Underline}>About me</h2>
-        <img className={styles.profilePicture} src={profilePicture} alt="Steffen" />
+        <img
+          className={styles.profilePicture}
+          src={profilePicture}
+          alt="Steffen"
+        />
         <p className={styles.profileText}>
           I'm currently pursuing a masters degree in computer science at the
-          University of Oslo (UiO), while working part time as a operations consultant.
+          University of Oslo (UiO), while working part time as a operations
+          consultant.
         </p>
       </article>
       <div className={styles.listRow}>
