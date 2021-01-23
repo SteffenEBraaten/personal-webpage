@@ -10,12 +10,12 @@
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   transition: color 0.5s;
 }
 
 a:hover {
-  color: #4a6fa5;
+  color: #959595;
   text-decoration: none;
 }
 

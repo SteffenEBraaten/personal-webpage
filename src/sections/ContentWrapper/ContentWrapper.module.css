@@ -1,3 +1,7 @@
+body {
+  color: #ffffff;
+}
+
 .container {
-  background-image: linear-gradient(to bottom, #00a6fb, #006494);
+  background-image: linear-gradient(to bottom, #343433, #4B4C4B);
 }
