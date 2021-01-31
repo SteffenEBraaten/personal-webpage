@@ -1,20 +1,20 @@
 /* Color pallett 
-Dusty Gray
-#959595
+From the brightest to darkest
+#D0D1D0
 
-Tuatara
-#343433
+#A4A5A4
 
-Tundora
-#444344
+#797A79
 
-Gray Asparagus
-#4B4C4B */
+#525352
+
+#2d2e2d
+*/
 
 body {
   color: #ffffff;
 }
 
 .container {
-  background-image: linear-gradient(to bottom, #343433, #4B4C4B);
+  background-image: linear-gradient(to bottom, #525352, #313231);
 }

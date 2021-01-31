@@ -2,15 +2,14 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    background-color: #444344;
     height: 350px;
     width: 400px;
     min-width: 250px;
     padding: 1.5rem;
 
     border-radius: 16px;
-    box-shadow: -1rem 0 3rem #000;
-    background: #17141d;
+    box-shadow: -1rem 0 3rem #1f1f1f;
+    background: #2d2e2d;
 
     transition: .2s;
 }

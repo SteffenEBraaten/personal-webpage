@@ -1,6 +1,16 @@
+.workExperienceContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vH;
+    justify-content: center;
+}
+
+.centerH2 {
+    text-align: center;
+}
+
 .cardList {
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
     padding: 3rem;
     overflow-x: scroll;
@@ -12,11 +22,6 @@
 }
 
 .cardList::-webkit-scrollbar-thumb {
-    background: #201c29;
+    background: #424242;
     border-radius: 10px;
-    box-shadow: inset 2px 2px 2px hsla(0, 0, 100%, .25), inset -2px -2px 2px rgba(0, 0, 0, .25);
-}
-
-.cardList::-webkit-scrollbar-track {
-    background: linear-gradient(90deg, #201c29, #201c29, #201c29);
 }
