@@ -1,0 +1,27 @@
+.workExperienceContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vH;
+    justify-content: center;
+}
+
+.centerH2 {
+    text-align: center;
+}
+
+.cardList {
+    display: flex;
+    justify-content: flex-start;
+    padding: 3rem;
+    overflow-x: scroll;
+}
+
+.cardList::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.cardList::-webkit-scrollbar-thumb {
+    background: #424242;
+    border-radius: 10px;
+}
