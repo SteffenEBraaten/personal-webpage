@@ -4,6 +4,7 @@ import Landing from "../Landing/Landing";
 import AboutMe from "../AboutMe/AboutMe";
 import WorkExperience from "../WorkExperience/WorkExperience";
 import Projects from "../Projects/Projects";
+import Footer from "../../components/Footer/Footer";
 
 const ContentWrapper = () => {
   return (
@@ -12,6 +13,7 @@ const ContentWrapper = () => {
       <AboutMe />
       <WorkExperience />
       <Projects />
+      <Footer text={"Steffen Ekeberg Bråten"} />
     </div>
   );
 };
