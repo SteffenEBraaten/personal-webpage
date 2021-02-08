@@ -1,0 +1,14 @@
+.projectCard {
+  border-radius: 16px;
+  background: #2d2e2d;
+  padding: 16px;
+  margin: 8px 0;
+}
+
+.projectCard:hover {
+  cursor: pointer;
+}
+
+.button {
+    border-radius: 6px;
+}
