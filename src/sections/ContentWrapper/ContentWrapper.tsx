@@ -3,6 +3,7 @@ import styles from "./ContentWrapper.module.css";
 import Landing from "../Landing/Landing";
 import AboutMe from "../AboutMe/AboutMe";
 import WorkExperience from "../WorkExperience/WorkExperience";
+import Projects from "../Projects/Projects";
 
 const ContentWrapper = () => {
   return (
@@ -10,6 +11,7 @@ const ContentWrapper = () => {
       <Landing />
       <AboutMe />
       <WorkExperience />
+      <Projects />
     </div>
   );
 };
