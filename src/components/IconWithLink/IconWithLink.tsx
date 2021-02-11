@@ -1,6 +1,5 @@
 import React from "react";
 
-
 interface iconWithLink {
   url: string;
   fontAwesomeIcon: JSX.Element;

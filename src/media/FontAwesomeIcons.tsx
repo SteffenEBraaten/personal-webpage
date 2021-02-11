@@ -12,8 +12,7 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 const githubIcon = <FontAwesomeIcon icon={["fab", "github"]} />;
 const globeIcon = <FontAwesomeIcon icon={faGlobe} />;
-const linkedinIcon = <FontAwesomeIcon icon={["fab", "linkedin"]} />;  
+const linkedinIcon = <FontAwesomeIcon icon={["fab", "linkedin"]} />;
 const mailIcon = <FontAwesomeIcon icon={faEnvelope} />;
-
 
 export { githubIcon, globeIcon, linkedinIcon, mailIcon };

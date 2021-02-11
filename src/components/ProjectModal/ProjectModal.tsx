@@ -21,7 +21,6 @@ const ProjectModal = ({
   urlToProject,
   urlToGitRepo,
 }: projectModal): any => {
-
   if (open) {
     return (
       <article className={styles.modal} onClick={() => close()}>

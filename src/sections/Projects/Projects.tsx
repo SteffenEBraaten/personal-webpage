@@ -13,8 +13,7 @@ const Projects = () => {
           description={`Made a python script which sorts the files inside the downloads 
           folder of the users system. It sorts the files based on it's 
           extension type and puts it into an category which that extension 
-          has been assigned.`
-          }
+          has been assigned.`}
           urlToGitRepo={"https://github.com/SteffenEBraaten/Download_Sorter"}
         />
         <ProjectCard
@@ -25,8 +24,7 @@ const Projects = () => {
           functionality for seeing live lightning strikes on a map and 
           see a history of where lightning had struck within a choosen 
           timeframe. To realize this project we had to gather data, 
-          prototype and use the Google Maps API and the MET Norway Weather API.`
-          }
+          prototype and use the Google Maps API and the MET Norway Weather API.`}
           urlToGitRepo={"https://github.com/SteffenEBraaten/lightning-buddy"}
         />
         <ProjectCard
@@ -36,8 +34,7 @@ const Projects = () => {
           WorkingList application was made to improve the workflow of health 
           personell and contact tracers when they were going to follow up index cases 
           of COVID-19 and contacts of index cases. Being in the DHIS2 ecosystem we 
-          used both resources like API and designsystem realize our app.`
-        }
+          used both resources like API and designsystem realize our app.`}
           urlToGitRepo={"https://github.com/SteffenEBraaten/WorkingList"}
         />
       </section>
