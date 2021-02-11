@@ -6,12 +6,14 @@ interface projectCard {
   title: string;
   description: string;
   urlToProject?: string;
+  urlToGitRepo?: string;
 }
 
 const ProjectCard = ({
   title,
   description,
   urlToProject,
+  urlToGitRepo,
 }: projectCard): JSX.Element => {
   const [showModal, setShowModal] = useState(false);
 
@@ -19,10 +21,15 @@ const ProjectCard = ({
     setShowModal(!showModal);
   };
 
+  const previewDescription = (description: string): string => {
+    return description.substring(0, 50) + "...";
+  };
+
   return (
     <>
       <article className={styles.projectCard} onClick={() => handleShowModal()}>
         <h3>{title}</h3>
+        <p>{previewDescription(description)}</p>
       </article>
       <ProjectModal
         open={showModal}
@@ -30,6 +37,7 @@ const ProjectCard = ({
         title={title}
         description={description}
         urlToProject={urlToProject}
+        urlToGitRepo={urlToGitRepo}
       />
     </>
   );

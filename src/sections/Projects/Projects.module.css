@@ -1,27 +1,28 @@
 .workExperienceContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vH;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2em;
 }
 
 .centerH2 {
-    text-align: center;
+  text-align: center;
 }
 
 .projectList {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 @media only screen and (min-width: 768px) {
-    .projectList {
-        max-width: 1440px;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+  .projectList {
+    max-width: 1250px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
