@@ -1,4 +1,6 @@
 import React from "react";
+import { githubIcon, globeIcon } from "../../media/FontAwesomeIcons";
+import IconWithLink from "../IconWithLink/IconWithLink";
 
 import styles from "./ProjectModal.module.css";
 
@@ -8,9 +10,17 @@ interface projectModal {
   title: string;
   description: string;
   urlToProject?: string;
+  urlToGitRepo?: string;
 }
 
-const ProjectModal = ({ open, close, title, description }: projectModal): any => {
+const ProjectModal = ({
+  open,
+  close,
+  title,
+  description,
+  urlToProject,
+  urlToGitRepo,
+}: projectModal): any => {
 
   if (open) {
     return (
@@ -21,6 +31,20 @@ const ProjectModal = ({ open, close, title, description }: projectModal): any =>
           </div>
           <div className={styles.body}>
             <p>{description}</p>
+            {urlToProject && urlToGitRepo ? (
+              <div className={styles.iconContainer}>
+                <IconWithLink url={urlToProject} fontAwesomeIcon={globeIcon} />
+                <IconWithLink url={urlToProject} fontAwesomeIcon={githubIcon} />
+              </div>
+            ) : urlToProject && !urlToGitRepo ? (
+              <div className={styles.iconContainer}>
+                <IconWithLink url={urlToProject} fontAwesomeIcon={globeIcon} />
+              </div>
+            ) : !urlToProject && urlToGitRepo ? (
+              <div className={styles.iconContainer}>
+                <IconWithLink url={urlToGitRepo} fontAwesomeIcon={githubIcon} />
+              </div>
+            ) : null}
           </div>
           <div className={styles.footer}>
             <button className={styles.button} onClick={() => close()}>

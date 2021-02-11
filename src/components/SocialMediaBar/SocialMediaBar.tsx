@@ -1,25 +1,30 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { linkedinIcon, githubIcon, mailIcon } from "../../media/FontAwesomeIcons";
+import IconWithLink from "../IconWithLink/IconWithLink";
+
 import styles from "./SocialMediaBar.module.css";
 
 export const SocialMediaBar = () => {
+
   return (
     <ul className={styles.socialMediaBar}>
       <li>
-        <a href="https://www.linkedin.com/in/steffen-ekeberg-braaten-942908156/">
-          <FontAwesomeIcon icon={["fab", "linkedin"]} />
-        </a>
+        <IconWithLink
+          url={"https://www.linkedin.com/in/steffen-ekeberg-braaten-942908156/"}
+          fontAwesomeIcon={linkedinIcon}
+        />
       </li>
       <li>
-        <a href="https://github.com/SteffenEBraaten">
-          <FontAwesomeIcon icon={["fab", "github"]} />
-        </a>
+        <IconWithLink
+          url={"https://github.com/SteffenEBraaten"}
+          fontAwesomeIcon={githubIcon}
+        />
       </li>
       <li>
-        <a href="mailto:steffen.e.braaten@gmail.com">
-          <FontAwesomeIcon icon={faEnvelope} />
-        </a>
+        <IconWithLink
+          url={"mailto:steffen.e.braaten@gmail.com"}
+          fontAwesomeIcon={mailIcon}
+        />
       </li>
     </ul>
   );
