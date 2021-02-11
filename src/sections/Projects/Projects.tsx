@@ -30,7 +30,7 @@ const Projects = () => {
         <ProjectCard
           title={"Workinglist"}
           description={`A application made in the course IN5320 - Development in 
-          platform ecosystems autumn 2020 at the University of Oslo (UiO). he 
+          platform ecosystems autumn 2020 at the University of Oslo (UiO). The 
           WorkingList application was made to improve the workflow of health 
           personell and contact tracers when they were going to follow up index cases 
           of COVID-19 and contacts of index cases. Being in the DHIS2 ecosystem we 
