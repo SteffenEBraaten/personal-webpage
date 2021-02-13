@@ -1,5 +1,5 @@
 import React from "react";
-import WorkExperienceCard from "../../components/Card/WorkExperienceCard";
+import WorkExperienceCard from "../../components/WorkExperienceCard/WorkExperienceCard";
 import SpareBank1Logo from "../../media/svg/SpareBank1Logo";
 import ProserviaLogo from "../../media/svg/ProserviaLogo";
 
