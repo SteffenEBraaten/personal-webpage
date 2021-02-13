@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../../components/Card/Card";
+import WorkExperienceCard from "../../components/Card/WorkExperienceCard";
 import SpareBank1Logo from "../../media/svg/SpareBank1Logo";
 import ProserviaLogo from "../../media/svg/ProserviaLogo";
 
@@ -10,7 +10,7 @@ const WorkExperience = () => {
     <section className={styles.workExperienceContainer}>
       <h2 className={styles.centerH2}>Work expereince</h2>
       <section className={styles.cardList}>
-        <Card
+        <WorkExperienceCard
           title={"SpareBank 1 Utvikling"}
           timeperiod={"Jan 2021 - Present"}
           description={
@@ -18,7 +18,7 @@ const WorkExperience = () => {
           }
           image={<SpareBank1Logo />}
         />
-        <Card
+        <WorkExperienceCard
           title={"SpareBank 1 Utvikling"}
           timeperiod={"Jun 2020 - Aug 2020"}
           description={
@@ -26,7 +26,7 @@ const WorkExperience = () => {
           }
           image={<SpareBank1Logo />}
         />
-        <Card
+        <WorkExperienceCard
           title={"SpareBank 1 Utvikling"}
           timeperiod={"Dec 2018 - Dec 2020"}
           description={
@@ -34,7 +34,7 @@ const WorkExperience = () => {
           }
           image={<SpareBank1Logo />}
         />
-        <Card
+        <WorkExperienceCard
           title={"Proservia ManpowerGroup"}
           timeperiod={"Dec 2018 - Dec 2020"}
           description={"Was a consultant rented out to SpareBank 1 Utvikling."}
